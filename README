@@ -1,0 +1,8 @@
+This was the final project for the lower division cse31 at UC Merced back in 2010. The source code is under GPL V2+. Please hack and enjoy. :-)
+
+NOTICE: you need to install the SDL libaries
+Use synaptic make sure to install the base libaries ANDDDDD the dev libaries.
+You need image, ttf, and mixer (1.2) 
+
+Thankyou
+- Shreaders

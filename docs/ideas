@@ -1,0 +1,2 @@
+if we wanted to limit input to one character on a screen.
+We would implement a lock flag. When the person presses down we would set a flag to 1 (or 2(left), 3 (right) 4(down) if not already. When the person releases the key we would set it 0 if it was the apporpate key. AND was not already set to 0.

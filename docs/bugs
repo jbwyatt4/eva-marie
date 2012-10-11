@@ -1,0 +1,6 @@
+revision 59 contains the untransparent ones
+
+For errors like these:
+	undefined reference to `SDL_FreeSurface'
+changing the order of the $(LFLAGS) got rid of them. (From before the $(CFLAGS) to behind everything.
+http://stackoverflow.com/questions/8498899/ubuntu-11-10-gcc-g-wont-link-libraries

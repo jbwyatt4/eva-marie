@@ -1,0 +1,21 @@
+/*************
+This contains common info on tools to make it easier for us to work on
+them and be on the same page.
+*************/
+
+
+svn
+svn status - displays all files that are not in svn. Useful if you forget a 
+file
+svn log - logs changes
+svn move - moves a file; do not use move or svn delete then try to move the
+file, the file will be deleted.
+
+imagemagick
+Resize increase by 50%
+convert backgroundtiles.png -resize 150% bigbackgroundtiles.png
+
+Convert a color to transparent
+convert -transparent "rgb(x,x,x)" TileMap.png TransparentTileMap.png
+Note: to find the color to be made transparent. Use GIMP's "Color Picker Tool". Click on
+the color then double click on the square box. Copy the RGB values in order. Red-Green-Blue

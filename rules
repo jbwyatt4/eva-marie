@@ -1,0 +1,13 @@
+Please don't put your name in the code.
+This was read in a project management guide. When you put your name on piece of code. People feel that it's own and they have to get permission to change. Besides it's a waste of time in the long run since we know you changed the code from svn log.
+
+Comments
+All functions or otherwise important documentation in the code should have
+/**
+
+*/
+The double star is so tools like doxygen can be use to automate the creation of documentation.
+
+Avoid using /* */ within a function, class or otherwise block of code. We want to be able to use /* */ to disable a piece of code if need be. Please use c++ style comments instead //
+
+If you use extern comment which file we can find the declaration

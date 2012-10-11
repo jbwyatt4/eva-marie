@@ -1,0 +1,96 @@
+NOTICE THIS IS A DRAFT - feel free to change it
+-----------------------
+This the design doc. The authoriantan source of our game. If you want to add
+a feautre describe it here and put it in the roadmap.
+
+Remember all features we don't 'need' for the grade go into 1.1.
+The reason: alot of software designs have a lot of extra features
+that end up getting cut; to only be looked back as a waste of time.
+
+Game demo (moving, walking, character animation, keyboard input)
+Menu (we a push a key a menu comes up)
+Partial Menu
+                 /--------\
+                 |        |
+                 |        |
+                 | text1  |
+                      ....
+Full Screen
+
+Status Weapons Armor Items
+   ^   ------------------
+Class: Fighter
+Level: 2
+HP: 13
+MP: 3
+Condictions: Posioned
+
+Classes
+Fighter (can use the most damaging weapons)
+Rogue (can steal items in combat, can easily sneak away in light armor)
+Wizard (can cast spells)
+
+Types
+Fire
+Water
+Lighting
+Evil
+Water beats Fire which beats Lighting which beats Water
+The boss is the only Dark type
+
+Weapons, Armor
+Ummm... three different types of weapons. Battleaxe(fighter), knife (rogue),
+Staff (wizard)
+Armor
+3 types
+Chainmail
+Leather
+Robe
+Weapons and armor must be able to have enhancement bounses. (+1... +1 to 
+attack)
+
+
+Spells
+Simple spells, more complex spells go in v1.1
+Fire 1, Fire 2, Fire 3...
+Water 1, Water 2...
+Lighting 1...
+
+Random Monster Encounter System
+Since we didn't want to have to put monsters on the map. They will simple
+occur randomily. We should a table of values that determine which monster
+comes in which part of the level.
+
+Battle Menu
+A FinalFantasy 1 set up
+
+
+-------------------\
+|                  | characters
+| monsters here    | here
+| background       |
+|                  |
+|                  | 
+\------------------/
+Battles are important because
+there the only way to get items and gold coins right now
+
+Random Map Generation
+Our original design doc specified random map generation.
+
+Process requirement
+Since we're required to use processes; and we're required to have a dynamic environment. We shall have at least one shopkeeper in the game. This shopkeeper will have a limited inventory and will hold any items we sell to it for a limited time. This time is 10 minutes (or intill the character rests) for when the transcation happened. The shopkeeper may also have a limited amount of gold that also gets reset. We can also add to make the gold part easier that after you close the transcation window (and made a transcation) the shopkeeper will refuse to talk to you for a rand 2 - 5 minutes.
+
+Extra Features (1.1+)
+Only one of these should be done for 1.1. (To prevent feature overload...
+remember release early and often.)
+For each one we increrement the version by 0.1
+
+Shopkeeper (store features)
+Chests (store items for us to find)
+Subplots (find the Boss's teddy bear to distract him)
+         (Add Good type: find a Good type weapon for a bouns against the boss)
+Mutiple Levels
+Hidden Pathways 
+Score System - when killed or beat game the system runs a check to see 
+how much gold you have to determine your score.

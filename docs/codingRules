@@ -1,0 +1,35 @@
+Coding Style Rules->Please follow to as much as possible.
+Those who don't follow the coding guidelines will be delegated towards
+chores and testing duties.
+Those who do follow will be trusted to code the most important parts of the
+game.
+These rules have one simple objective: to get the project done.
+
+Style Elements
+Please for every 'if' have braces {}.
+
+Documentation
+Remember if takes 20 secodns for you to comment a function.
+It takes someone else a few minutes to understand. Comment your functions please.
+If it takes more then a few seconds to understand a line of code-> Document it please.
+A quick // to the side.
+If you have problems reading your own code-the rest of the team will have even more.
+
+Comment your uploads. We can view them in the public repository. It takes you
+ten seconds to properly describe a change while it takes everyone else minutes
+to determine a change.
+
+Before every function: document what it does in like
+/*****************
+function foo
+Arguments: int (height) , int (width) , struct ( n * n map )
+
+foo prints a map starting with coordinates specified by height and width
+see datastruct map for more details
+
+*****************/
+
+or at least
+/**
+describes a comment
+*/
