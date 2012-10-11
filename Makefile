@@ -10,6 +10,7 @@ includes = $(wildcard include/*.h)
 
 all: $(prog)
 	rm build/*
+	touch build/unloved
 
 # target, uses rules
 $(prog): $(builds) $(include)
